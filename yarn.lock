@@ -1602,6 +1602,31 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@cassette/components@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@cassette/components/-/components-2.0.0-beta.4.tgz#a4f7d548b171583aa140e974eddc120e0bb64599"
+  integrity sha512-EaEy/lotSdyGY9EacF46DJ4QF16KEqAWzlVfgvCcLhUACcPSiE0kCXkeswBOoMM/HZINPmz6TnFeNRQErcuTGQ==
+  dependencies:
+    "@cassette/core" "^2.0.0-beta.4"
+    prop-types "^15.5.10"
+    resize-observer-polyfill "^1.4.2"
+
+"@cassette/core@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@cassette/core/-/core-2.0.0-beta.4.tgz#91c4a888b0e2aa2814082105aa4da288ed2ad0f0"
+  integrity sha512-KioLRlrfASiWEOQVuW8RbOmZpIp+0jb3ZICDnwhKla/Fa8Pd66UiJJdNCqZIVupgfKIH8b7BGBhbp6YDFo4RDw==
+  dependencies:
+    prop-types "^15.5.10"
+
+"@cassette/player@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@cassette/player/-/player-2.0.0-beta.4.tgz#60f4133c3a84741ff39656cf40bae7c73839a646"
+  integrity sha512-mMsfyd7Noh7hcEA4VMVNXdxSTccSl7L7P+vHCfGe2jncEcwdS8XlNTmjLWYWejofLS7+jLxcmFB5A2Wwqc642g==
+  dependencies:
+    "@cassette/components" "^2.0.0-beta.4"
+    "@cassette/core" "^2.0.0-beta.4"
+    prop-types "^15.5.10"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -9356,7 +9381,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -9986,6 +10011,11 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
+
+resize-observer-polyfill@^1.4.2:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
